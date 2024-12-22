@@ -1,0 +1,49 @@
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#meme-container{
+    position: relative;
+    width: 400px;
+    margin: 20px auto;
+}
+#meme-image {
+    width: 100%;
+    height: auto;
+}
+.caption {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+#top-caption {
+    top: 10px;
+}
+#bottom-caption {
+    bottom: 10px;
+}
+#controls {
+    margin: 20px;
+}
+input[type="file"] {
+    margin: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
